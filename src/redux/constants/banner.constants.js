@@ -1,0 +1,3 @@
+export const BANNER_FETCHING = 'BANNER_FETCHING';
+export const BANNER_SUCCESS = 'BANNER_SUCCESS';
+export const BANNER_FAIL = 'BANNER_FAIL';

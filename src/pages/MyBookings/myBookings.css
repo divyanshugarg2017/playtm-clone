@@ -1,0 +1,15 @@
+.top-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #686868;
+  margin: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+}
+
+.body_label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0085ff;
+}

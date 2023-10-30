@@ -1,0 +1,193 @@
+.tick_img {
+  position: relative;
+}
+
+.responsive_6 {
+  display: none !important;
+}
+
+.sportsparadiseimg img {
+  height: 50vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+
+
+.bottom_section {
+  background: rgba(207, 232, 255, 0.2) !important;
+}
+
+.sportscardleft {
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sportscardleft:hover {
+  border: 2px solid #0085ff;
+}
+
+.datacard__radio {
+  display: none;
+}
+
+.datacard__radio:checked~.datecard {
+  background: #D7D7D799 !important;
+}
+
+.datacard__radio.datecard {
+  background: #D7D7D799 !important;
+}
+
+
+
+.datecard {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.datecard.datecard__checked {
+  background: #D7D7D799 !important;
+}
+
+
+.datecard:hover {
+  box-shadow: 0px 0px 0px 2px #0085FF !important;
+}
+
+.bookingslots {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: max-content;
+}
+
+.btnresponsive button {
+  display: none;
+}
+
+.sports___card {
+  position: relative;
+  padding: 5px 10px;
+  height: 120px;
+  background: #FFFFFF !important;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+.sports___card img {
+  width: 34px;
+  height: 34px;
+}
+
+.sports___card:hover {
+  border: 2px solid #0085FF !important;
+  border-radius: 10px;
+}
+
+.navilink {
+  padding: 0 !important;
+  margin: 10px 0;
+  color: #000 !important;
+}
+
+/* .sports___card:hover:before {
+  position: absolute;
+  content: '';
+  background-color: #0085FF;
+  height: 20px;
+  width: 20px;
+  right: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+} */
+
+.navilink.active:hover {
+  border: none !important;
+}
+
+.navilink.active {
+  position: relative !important;
+}
+
+.navilink.active {
+  border: 2px solid #0085FF !important;
+  border-radius: 10px;
+}
+
+.navilink.active:before {
+  color: rgba(0, 0, 0, 0.5) !important;
+  position: absolute;
+  content: '';
+  background-color: #0085FF;
+  height: 20px;
+  width: 20px;
+  top: 50px;
+  right: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .sports_available {
+    display: none;
+  }
+
+  .paradise_div {
+    position: relative;
+  }
+
+  .social_icons {
+    display: none !important;
+  }
+
+  .paradise_div_1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .responsive_5 {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .desktop_view {
+    display: none !important;
+  }
+
+  .responsive_6 {
+    display: flex !important;
+  }
+
+  .btnresponsive button {
+    display: block;
+  }
+
+  .datecardmobile {
+    overflow: auto;
+  }
+
+  .datecardmobile_2 {
+    flex-direction: column;
+  }
+
+  .select___sports {
+    flex-direction: column;
+  }
+
+  .sports___card:hover:before {
+    display: none !important;
+  }
+
+  .navilink.active:before {
+    display: none !important;
+  }
+}

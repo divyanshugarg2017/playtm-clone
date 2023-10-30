@@ -1,0 +1,70 @@
+.offer_img {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.offer_img img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.offer_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100% !important;
+    width: 50% !important;
+}
+
+.offer_overlay img {
+    height: 100% !important;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 23px;
+    left: 10px;
+
+}
+
+.overlay_badge_offers {
+    margin-top: 25px;
+}
+
+.overlay_txt {
+    font-weight: 400;
+    font-family: 'Maqin Larisa Display';
+    color: #FDB601;
+    font-size: 19px;
+    width: 100px;
+
+}
+
+.overlay_smtxt {
+    width: 59px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.overlay_badge {
+    clip-path: polygon(90% 100%, 70% 0, 0 0, 19% 99%);
+    background-color: #F6A801;
+    width: fit-content;
+    height: fit-content;
+    padding: 1px 23px;
+    position: absolute;
+    top: 85px;
+    left: 10px;
+}
+
+.overlay_badge_txt {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px 8px;
+}

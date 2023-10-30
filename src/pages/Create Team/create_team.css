@@ -1,0 +1,65 @@
+.create_team {
+    background: rgba(207, 232, 255, 0.2);
+}
+
+.create_team_bg_w {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team_logo_img_div {
+    position: relative;
+}
+
+.team_logo_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #fff;
+    padding: 0 2px;
+}
+
+.add_btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    position: absolute;
+    bottom: 3px;
+
+
+    right: 0px;
+
+}
+
+.skill {
+    margin-right: 25px;
+    border: none !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) !important;
+
+}
+
+.skill:hover {
+    background-color: white !important;
+    color: black;
+}
+
+@media screen and (max-width:760px) {
+    .skill {
+        margin: 0;
+    }
+
+    .team_logo {
+        flex-direction: column !important;
+
+
+    }
+
+    .team_logo_input {
+        margin-left: 5px !important;
+        margin-top: 8px;
+        width: 90%;
+    }
+}

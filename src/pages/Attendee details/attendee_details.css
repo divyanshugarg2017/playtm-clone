@@ -1,0 +1,22 @@
+.attendee_details {
+    background: rgba(207, 232, 255, 0.2);
+}
+
+.attendee_details_bg_w {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bg_white________ {
+    background-color: white !important;
+}
+
+@media screen and (max-width: 960px) {
+    .attendee_details_input {
+        margin-left: 0 !important;
+    }
+
+    .attendee_details_btn {
+        justify-content: center !important;
+    }
+}

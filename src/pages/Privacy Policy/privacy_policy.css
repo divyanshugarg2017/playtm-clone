@@ -1,0 +1,14 @@
+.privacy_policy {
+  background: rgba(207, 232, 255, 0.2);
+  height: 100vh !important;
+}
+
+.privacy_policy_body {
+  background-color: #fff !important;
+}
+
+@media screen and (max-width: 700px) {
+  .privacy_policy_p {
+    padding: 0 !important;
+  }
+}

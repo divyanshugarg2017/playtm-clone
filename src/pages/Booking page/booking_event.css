@@ -1,0 +1,14 @@
+.booking_event {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking_login_details_title {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking_login_details_input input {
+    border: none !important;
+    border-bottom: 1px solid gray !important;
+}

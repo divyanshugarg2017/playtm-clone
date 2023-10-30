@@ -1,0 +1,145 @@
+.booking_payment {
+    height: 100% !important;
+    background: rgba(207, 232, 255, 0.2) !important;
+}
+
+.booking_login_payment {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.apply_btn {
+    height: min-content;
+    color: green;
+    font-weight: 600;
+    border: none !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+
+}
+
+.booking_login_payment_input input {
+    border: none !important;
+    border-bottom: 1px solid gray !important;
+}
+
+.pay {
+    border: 1px solid gray;
+}
+
+.red_underline {
+    color: orangered;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+    .responsive {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .booking_login_payment {
+        padding: 0 5px;
+    }
+
+    .booking_event_responsive {
+        padding: 0 !important;
+    }
+
+    .booking_event_name {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .booking_event_title h4 {
+        font-size: 17px;
+    }
+
+    .responsive_btn {
+        padding: 0 !important;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking_event_details ul {
+        margin-right: 10px;
+    }
+
+    .booking_event_details ul li {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .booking_event_details {
+        justify-content: space-between;
+    }
+
+    .booking_login_payment_input {
+        display: none !important;
+    }
+
+    .total_amnt {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .convenience_fee {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .advance_pay {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 0 !important;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .advance_pay p {
+        font-size: 16px;
+    }
+
+    .advance_pay_2 p {
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 3px !important;
+    }
+
+    .between {
+        margin: 0 !important;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .total_amnt_2 {
+        border-top: 1px solid #0d6efd;
+        border-bottom: 1px solid #0d6efd;
+        padding: 10px 5px;
+        background-color: #e0e8f7;
+        z-index: 0;
+    }
+
+    .total_amnt_2 p {
+        z-index: 9999;
+        font-weight: 600;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .pay_btn {
+        padding: 0 15px;
+    }
+
+
+
+}

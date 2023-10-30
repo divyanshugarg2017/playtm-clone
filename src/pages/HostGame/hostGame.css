@@ -1,0 +1,58 @@
+.locateicon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 23px;
+}
+
+.locateicondiv {
+    position: relative;
+}
+
+.input3 {
+    border: none !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 10px;
+}
+
+
+
+.sportscardleftimg2 img {
+    width: 30px !important;
+}
+
+.color_blue {
+    color: #0085FF !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+
+.teambtn {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px !important;
+
+}
+
+.teambtn img {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.div-opacity {
+    opacity: .5;
+    pointer-events: none !important;
+}
+
+.div-nopacity {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 700px) {
+    .sportscardleft2 {
+        width: 100% !important;
+    }
+}

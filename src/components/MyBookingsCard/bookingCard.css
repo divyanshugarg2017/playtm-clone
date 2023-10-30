@@ -1,0 +1,27 @@
+.card_titles {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.two_km_imgdiv {
+  position: relative;
+
+}
+
+.two_km {
+  background-color: #fff;
+  color: black !important;
+  border-radius: 2px;
+  width: fit-content;
+  padding: 3px 5px;
+  top: -33px;
+  right: 10px;
+  position: absolute;
+  height: fit-content;
+  font-size: 10px !important;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+}

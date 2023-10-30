@@ -1,0 +1,22 @@
+.player {
+  background: rgba(0, 133, 255, 0.2);
+}
+
+.accordion-button {
+  background: none !important;
+}
+
+.player_card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.player_img {
+  justify-content: center;
+}
+
+.accordion-item {
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}

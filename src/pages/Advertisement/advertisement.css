@@ -1,0 +1,19 @@
+.advertisement {
+    position: fixed;
+    z-index: 99;
+    top: 52% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: #fff !important;
+
+}
+
+.mobile_img {
+    width: 100%;
+}
+
+
+button.btn.ignore_btn:hover {
+    background-color: #0d6efd;
+    color: #fff !important;
+}

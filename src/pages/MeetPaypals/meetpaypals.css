@@ -1,0 +1,44 @@
+.tab-body-content {
+  background-color: white !important;
+}
+
+.host_btn {
+  border: none;
+  background: #0085ff;
+  border-radius: 6px;
+  color: white;
+  width: 140px;
+  height: 40px;
+}
+
+.tabs-container {
+  border-bottom: 0px solid transparent;
+}
+
+@media screen and (max-width: 700px) {
+
+
+  .tabs___container {
+    position: relative;
+  }
+
+  .host__btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .host__btn img {
+    display: none;
+  }
+
+  .chat_invite button {
+    width: 50%;
+  }
+
+  .chat_invite {
+    display: flex !important;
+    justify-content: space-between;
+  }
+}

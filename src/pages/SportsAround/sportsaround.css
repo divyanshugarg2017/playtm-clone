@@ -1,0 +1,150 @@
+
+.search-icon{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 18px;
+}
+.form-control{
+    border: none;
+    margin-left: 235px;
+    width: 875px;
+    box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 15px;
+    padding-left: 65px;
+}
+.title{
+    margin: 42px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.filter-icon{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.filter{
+    width: 160px;
+    height: 50px;
+    border: 1.5px solid #B1B1B1;
+    border-radius: 8px;
+    margin-top: -50px;
+    margin-left: 1130px;
+
+}
+.filter-txt{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B1B1B1;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+.location{
+    position: absolute;
+    width: 110px;
+    margin-left: 45px;
+}
+.location-txt{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.location-txt2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+@media screen and (max-width:1270px) {
+
+    .filter{
+        width:124px;
+        /* margin-left: 1005px; */
+        margin-left: 80%;
+    }
+    .filter-txt{
+        margin-left: 32px;
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    .form-control{
+        width: 60%;
+        margin-left: 195px;
+    }
+    .search-icon{
+        margin-left: 222px;
+    }
+}
+@media screen and (max-width:1018px) {
+
+    .filter{
+        width:124px;
+        margin-left: 82%;
+    }
+    .filter-txt{
+        margin-left: 32px;
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    .form-control{
+        width:60%;
+        margin-left: 195px;
+    }
+    
+}
+@media screen and (max-width:930px) {
+    .form-control{
+        width: 50%;
+    }
+    .filter{
+        width:124px;
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:693px) {
+    .form-control{
+        width: 40%;
+    }
+    .filter{
+        width:124px;
+        margin-left: 70%;
+    }
+}
+@media screen and (max-width:426px) {
+
+    .location{
+        width: 90px;
+    margin-left: 40px;
+    }
+    .form-control{
+        margin-left: 135px;
+    }
+    .search-icon{
+        margin-left: 153px;
+    }
+    .filter{
+        width: 103px;
+    margin-left: 73%;
+    }
+    .filter-txt{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:376px) {
+
+  
+    .filter{
+        width: 94px;
+        margin-left: 78%;
+    }
+    .filter-txt{
+        font-size: 10px;
+    }
+}

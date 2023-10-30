@@ -1,0 +1,38 @@
+.mobile {
+  background: rgba(0, 133, 255, 0.2);
+}
+
+.mobile_form {
+  height: 300px;
+  padding: 0;
+  box-shadow: 0 0.5rem 0rem rgba(0, 0, 0, 0);
+}
+
+.mobile_input input {
+  padding: 10px;
+  border: none !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.mobile_btn button {
+  margin-top: 80px;
+}
+
+.mobile_card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:700px) {
+  .mobile_form {
+    height: 150px !important;
+    box-shadow: none !important;
+  }
+
+
+}

@@ -1,0 +1,14 @@
+.sportsaroundcard {
+  width: 100% !important;
+}
+
+.btnrating {
+  background-color: #02aacc !important;
+  border: none !important;
+  padding: 3px 6px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}

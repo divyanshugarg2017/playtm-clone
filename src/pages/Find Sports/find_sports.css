@@ -1,0 +1,70 @@
+.find_sports_bg_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.find_sports_title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.find_sports_bg_img img {
+  width: 100%;
+
+}
+
+.search_box {
+  width: 100% !important;
+  position: relative;
+}
+
+.search_text {
+  width: 800px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding-left: 80px;
+  padding-right: 120px;
+  height: 61px;
+  text-indent: 10px;
+}
+
+
+.search_icon {
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 23px;
+  width: 24px !important;
+  height: 24px !important;
+  position: absolute;
+  left: 40px;
+}
+
+.locate____me {
+  position: absolute;
+  right: 15px;
+}
+
+.search_icon, .locate____me {
+  top: 16px;
+}
+
+img.locate_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.find_sports_bg_img_content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 700px) {
+  .find___sports {
+    display: none;
+  }
+
+}

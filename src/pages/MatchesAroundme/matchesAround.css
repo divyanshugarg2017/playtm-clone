@@ -1,0 +1,24 @@
+.form-control-search {
+  border: none;
+  box-shadow: 4px 4px 10px 1px #0000001a;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px;
+  padding-left: 65px;
+}
+.search__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+}

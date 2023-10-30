@@ -1,0 +1,15 @@
+.sports___home a {
+    color: #0085FF !important;
+}
+
+.sports___home a:hover {
+    text-decoration: underline !important;
+}
+
+@media screen and (max-width:960px) {
+
+    .eventsbgcard {
+        margin: 3px !important;
+    }
+
+}

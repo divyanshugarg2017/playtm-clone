@@ -1,0 +1,5 @@
+export const SPORTS_FETCHING = 'SPORTS_FETCHING';
+export const SPORTS_SUCCESS = 'SPORTS_SUCCESS';
+export const SPORTS_FAIL = 'SPORTS_FAIL';
+
+export const SET_SPORT_ID = 'SET_SPORT_ID';

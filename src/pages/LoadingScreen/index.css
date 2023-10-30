@@ -1,0 +1,28 @@
+.loading-wrapper {
+    position: fixed;
+    gap: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar__logo__img {
+  width: 26px;
+  height: 46px;
+}
+
+.navbar__logo__img img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .loading-wrapper {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+}
