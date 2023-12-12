@@ -65,44 +65,6 @@ const SportsAround = () => {
                 </div>
               }) : null
             }
-            {/* <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div>
-            <div className="col-lg-3 col-12">
-              <Cards2 />
-            </div> */}
           </div>
         </div>
       </div>

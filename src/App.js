@@ -33,7 +33,7 @@ import SignUp from "./pages/SignUp";
 function App() {
 
   const dispatch = useDispatch();
-
+  
   useEffect(()=>{
     dispatch(isAuthenticated());
   },[]);
