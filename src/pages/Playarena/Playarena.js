@@ -140,7 +140,7 @@ const Playarena = () => {
       </div>
 
       {/* section 2 starts from here */}
-      <div className="container mt-5">
+      <div className="container mt-5 container_max_width">
         <div className="row">
           <div className="col-lg-6 section_2">
             <div className="heading d-flex justify-content-lg-between align-items-lg-center position-relative">

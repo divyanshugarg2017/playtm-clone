@@ -237,8 +237,8 @@ const SportsParadise = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container-fluid bottom_section">
-				<div className="container pb-5">
+			<div className="container-fluid bottom_section full_width">
+				<div style={{maxWidth:"95%"}} className="container pb-5">
 					<div className="row">
 						<h3 className="mb-3 mt-4">Select Sports</h3>
 						{

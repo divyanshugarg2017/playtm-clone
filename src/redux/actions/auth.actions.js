@@ -21,7 +21,6 @@ export const signup = (email, password) => async (dispatch) => {
     dispatch({ type: USER_SIGNUP_REQUEST, payload: { email, password } });
     try {
         const { data } = await axiosInstance.post('/user/api/signup', { mobile:email, password });
-        
         dispatch({ type: USER_SIGNUP_SUCCESS, payload: data.data });
     } catch (error) {
         dispatch({
@@ -38,7 +37,8 @@ export const signin = (email, password) => async (dispatch) => {
     dispatch({ type: USER_SIGNIN_REQUEST, payload: { email, password } });
     try {
         const { data } = await axiosInstance.post('/user/api/login', { mobile: email, password },);   
-        console.log(data,"this is login data")     
+        console.log(data.data.accessToken,"this is login data")   
+        localStorage.setItem("accesstoken",data.data.accessToken)  
         if (data.statusCode!==1){
             dispatch({
                 type: USER_SIGNIN_FAIL,

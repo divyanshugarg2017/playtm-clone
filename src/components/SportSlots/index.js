@@ -40,7 +40,7 @@ const SportSlots = ({ clubId, onReshedule }) => {
     return (
         <div className="d-flex align-items-start select___sports">
             <div className="col-lg-3 col-12">
-                {" "}
+ 
                 <div
                     className="nav flex-column nav-tabs me-3"
                     id="v-tabs-tab"

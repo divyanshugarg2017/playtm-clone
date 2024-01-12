@@ -29,11 +29,10 @@ import { useEffect } from "react";
 import { isAuthenticated } from "./redux/actions/auth.actions";
 import UnAuthenticatedRoute from "./components/UnAuthenticatedRoute";
 import SignUp from "./pages/SignUp";
+import axios from "axios";
 
 function App() {
-
   const dispatch = useDispatch();
-  
   useEffect(()=>{
     dispatch(isAuthenticated());
   },[]);

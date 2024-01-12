@@ -6,6 +6,7 @@ export const fetchAllClubs = () => async (dispatch) => {
     dispatch({ type: CLUBS_LIST_FETCH});
     try {
         const { data } = await axiosInstance.get('/user/page/listOfClubs');
+        console.log(data,"cluuuuuuuuuuuuuuub liiiiiiiiiiiiiiiist daaaaaaaaaaaaaaaaata")
         dispatch({ type: CLUBS_LIST_SUCCESS, payload: data.data });
     } catch (error) {
         dispatch({

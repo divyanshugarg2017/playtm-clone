@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./index.css";
 import { Link } from "react-router-dom";
 import FindSports from "../Find Sports/FindSports";
@@ -53,6 +54,7 @@ const LandingPage = () => {
         data:clubsData
     } = clubs;
 
+     
     const [isDataLoading,setIsDataLoading] = useState(false);
     const fetchDataBasedOnFilter = async (city, sportName) => {
         setIsDataLoading(true);
@@ -86,12 +88,12 @@ const LandingPage = () => {
         <>
             <FilterHeader/>
             <div className="container-fluid p-0 d-flex mt-5">
-                <div className="container">
+                <div className="container container_max_width">
                     <div className="col-lg-12">
                         {" "}
                         {
                             isBannerLoading ? 
-                                <Skeleton variant="rect" width={1200} height={350} /> :
+                                <Skeleton variant="rect" width={1400} height={350} /> :
                                 <Carousel>
                                     {
                                         (bannerData && bannerData.length && !bannerError) && bannerData.map((banner,ind)=>{
@@ -126,7 +128,7 @@ const LandingPage = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container container_max_width">
                 <div className="row py-3">
                     {
                         (!isClubsLoading && isClubsDone && clubsData && clubsData.length) ? <>
