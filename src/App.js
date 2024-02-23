@@ -11,6 +11,7 @@ import CreateTeam from "./pages/Create Team/CreateTeam";
 import SportsParadise from "./pages/Sports Paradise/SportsParadise";
 import SportsAround from "./pages/SportsAround/SportsAround";
 import Mybookings from "./pages/MyBookings/Mybookings";
+import ForgotPassword from "./pages/ForgotPassword/index.js";
 import { Offers } from "./pages/Offers/Offers";
 import Meetpaypals from "./pages/MeetPaypals/Meetpaypals";
 import Chats from "./pages/Chats/Chats";
@@ -43,6 +44,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<UnAuthenticatedRoute location="/" element={<Login />} />} />
         <Route path="/signup" element={<UnAuthenticatedRoute location="/" element={<SignUp />} />} />
+        <Route path="/forgotpassword" element={<UnAuthenticatedRoute location="/" element={<ForgotPassword />} />} />
         <Route path="/" element={<AuthenticatedRoute location="/" element={<LandingPage />}/>} />
         <Route path="/clubs" element={<AuthenticatedRoute location="/" element={<SportsAround />} />} />
         <Route path="/club/:clubId" element={<AuthenticatedRoute location="/" element={<SportsParadise />} />} />

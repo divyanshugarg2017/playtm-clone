@@ -4,7 +4,7 @@ import { BOOKING_HISTORY_FAIL, BOOKING_HISTORY_FETCH, BOOKING_HISTORY_SUCCESS, S
 export const fetchBookingHistory = () => async (dispatch) => {
     dispatch({ type: BOOKING_HISTORY_FETCH });
     try {
-        const { data } = await axiosInstance.get(`/customer/api/v1/slotBooking/history`);
+        const { data } = await axiosInstance.get(`/customer/api/v1/slotBooking/history?type=Clubs`);
         dispatch({ type: BOOKING_HISTORY_SUCCESS, payload: data.data });
     } catch (error) {
         dispatch({

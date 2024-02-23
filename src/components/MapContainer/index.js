@@ -1,36 +1,34 @@
 import React, { useCallback, useRef } from 'react';
 import { GoogleMap,useJsApiLoader } from '@react-google-maps/api';
-import { ReactBingmaps } from 'react-bingmaps';
+import GoogleMapReact from 'google-map-react';
 
 function MapContainer(props) {
     const { latitude, longitude } = props;
-    const { isLoaded,loadError } = useJsApiLoader({
-        id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyBEkQmvOCbsXnKeRbMEs7m0CdFVbRlbNZo"
-      })
-    
-      const mapRef = useRef()
-      const mapOnLoad = useCallback((map)=>{
-        mapRef.current=map
-      },[])
+    const AnyReactComponent = ({ text }) => <div style={{width:"100%"}}>{text}</div>;
 
-      if(loadError) return
-
-      const center = {
-        lat: -3.745,
-        lng: -38.523
-      };
+    const defaultProps = {
+      center: {
+        lat: 10.99835602,
+        lng: 77.01502627
+      },
+      zoom: 15
+    };
 
     return (
-       <div>
-        <GoogleMap
-        mapContainerStyle={{height:"100vh",width:"100%"}}
-        zoom={13}
-        onLoad={mapOnLoad}
-        center={center}>
-            
-        </GoogleMap>
-       </div>
+      <div style={{ height: '100vh', width: '100vw' }}>
+    <GoogleMapReact
+      bootstrapURLKeys={{ key: "AIzaSyB_kV2qe_BocjKsgGBcCCYXHFqjS9URRh0" }}
+      defaultCenter={defaultProps.center}
+      defaultZoom={defaultProps.zoom}
+    >
+      <AnyReactComponent
+        lat={latitude}
+        lng={longitude}
+        text="My Marker"
+      />
+    </GoogleMapReact>
+    
+  </div>
     );
 }
 

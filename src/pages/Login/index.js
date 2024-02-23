@@ -104,6 +104,9 @@ const Login = () => {
                                     <div>
                                         <Link to="/signup" className="link" style={{fontSize:'1rem'}}>Don't have an account? <b>Sign up</b></Link>
                                     </div>
+                                    <div>
+                                        <Link to="/forgotpassword" className="link" style={{fontSize:'1rem'}}>Forgot password <b>Forgot password</b></Link>
+                                    </div>
 
                                 </form>
                             </div>

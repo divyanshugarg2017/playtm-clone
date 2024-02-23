@@ -10,11 +10,29 @@ import EventsCard from "../Events/EventsCard";
 import { fetchAllClubs } from "../../redux/actions/clubs.actions";
 import { fetchByKeyword } from "../../redux/actions/search.actions";
 import { Skeleton } from "@material-ui/lab";
+import { makeStyles } from "@material-ui/core/styles";
 import { fetchBanner } from "../../redux/actions/banner.actions";
 import axiosInstance from "../../utils/axiosInstance";
 import { Carousel } from "react-bootstrap";
 import FilterHeader from "../../components/FilterHeader";
 import EmptyDataMessage from "../../components/EmptyDataMessage";
+
+const useStyles = makeStyles(theme => ({
+    avatarSkeletonContainer: {
+        height: 0,
+        overflow: "hidden",
+        paddingTop: "100%",
+        position: "relative"
+      },
+      avatarLoader: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%"
+      },
+ 
+  }));
 
 const LandingPage = () => {
 
@@ -84,6 +102,8 @@ const LandingPage = () => {
         dispatch(fetchBanner('Chennai'));
     },[]);
 
+    console.log(bannerData,"thsssssssssssssssssssssss isssssssssssss")
+
     return (
         <>
             <FilterHeader/>
@@ -93,7 +113,7 @@ const LandingPage = () => {
                         {" "}
                         {
                             isBannerLoading ? 
-                                <Skeleton variant="rect" width={1400} height={350} /> :
+                                <Skeleton className="skeleton_container" variant="rect" height={350} /> :
                                 <Carousel>
                                     {
                                         (bannerData && bannerData.length && !bannerError) && bannerData.map((banner,ind)=>{

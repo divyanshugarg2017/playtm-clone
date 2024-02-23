@@ -5,6 +5,9 @@
 .sports___home a:hover {
     text-decoration: underline !important;
 }
+.skeleton_container{
+    width: 100%;
+}
 
 @media screen and (max-width:960px) {
 

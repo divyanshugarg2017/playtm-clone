@@ -4,6 +4,7 @@ import badminton from "../../assets/images/icons/badminton.png";
 import football from "../../assets/images/icons/football.png";
 import ph_football from "../../assets/images/icons/ph_football.png";
 import volleyball from "../../assets/images/icons/volleyball.png";
+import kabaddi from "../../assets/images/kabaddi.png";
 import star from "../../assets/images/icons/star.png";
 import banner1 from "../../assets/images/banner1.png";
 import { Link } from 'react-router-dom'
@@ -28,10 +29,11 @@ export const Cards = ({club}) => {
 
             <p className="card-text mt-3">{club.clubAddress}</p>
             <div className="card_icon mt-2">
-              <img src={badminton} className="game-icon" alt="123" />
+              {/* <img src={badminton} className="game-icon" alt="123" /> */}
               <img src={football} className="game-icon" alt="123" />
-              <img src={ph_football} className="game-icon" alt="123" />
-              <img src={volleyball} className="game-icon" alt="123" />
+              <img src={kabaddi} className="game-icon" alt="123" />
+              {/* <img style={{width:"5px"}} src={ph_football} className="game-icon" alt="123" /> */}
+              {/* <img src={volleyball} className="game-icon" alt="123" /> */}
             </div>
           </div>
         </div>
