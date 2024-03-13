@@ -102,7 +102,6 @@ const LandingPage = () => {
         dispatch(fetchBanner('Chennai'));
     },[]);
 
-    console.log(bannerData,"thsssssssssssssssssssssss isssssssssssss")
 
     return (
         <>
